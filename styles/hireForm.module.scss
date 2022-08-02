@@ -1,0 +1,96 @@
+.contact__container{
+    height: 100vh;
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 2%;
+    margin: 1rem auto;
+    padding: 0.4rem;
+    border-radius: 1rem;
+}
+
+.contact__options{
+    margin: auto ;
+}
+.contact__option{
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 0.8rem;
+    border-radius: 1rem;
+    background: rgba(35, 39, 10, 0.549); 
+    text-align: center;
+    align-items: center;
+}
+.contact__option:hover{
+    background: rgba(67, 74, 20, 0.549); 
+}
+.contact__icon{
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+ }
+ .contact__option a{ 
+     color:white;
+     margin:auto;
+     display: block;
+     font-size: 1rem;
+ }
+/*++++++++++++   Form Styling  ++++++++++++++*/
+
+.form{
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 0.8rem;
+    margin: auto;
+    max-width: 800px;
+    width: 100%;
+    border-radius: 0.5rem ;
+    gap: 1.4rem;
+
+    input, 
+    textarea{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border-radius: 0.3rem;
+    border: 2px solid var(--color-primary);
+    padding: 0.6rem;
+    resize:none;
+    }
+
+    input:focus {
+    background-color: rgba(0, 0, 0, 0.81);
+    color: rgb(255, 255, 0);
+    }
+  textarea:focus{
+    background-color: rgb(13, 0, 0);
+    color: rgb(255, 255, 0);
+     }
+}
+
+.btn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-style: bold;
+    width: max-content;
+    background-color: var(--color-primary);
+    display: inline-block;
+    color: var(--color-bg);
+    padding: 0.5rem 2rem;
+    margin:0.3rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition:var(--transition);
+  }
+  
+
+@media screen and (max-width:1080px) {
+    .contact__container{
+        margin: auto;
+        display: grid;
+        grid-template-columns:1fr;
+        gap:0;
+    }
+    .contact__container > div{
+        margin-bottom: 1rem;
+    }
+}

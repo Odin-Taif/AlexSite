@@ -1,0 +1,38 @@
+
+
+.viewmore_btn{
+    background-color: rgb(254, 254, 254);
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin:auto;
+    padding:1rem 1rem;
+    border-radius: 0.6rem;
+    border:none;
+}
+.viewmore_btn:hover{
+    transition: all .35s ease-in-out;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    padding: auto;
+    backdrop-filter: blur(10px);
+    background: rgba(77, 62, 86, 0.004);
+    border-bottom: 1px solid rgba(8, 0, 150, 0.962);
+    border-top: 1px solid rgba(8, 0, 150, 0.962);
+}
+
+.wrapper{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    height: auto;
+    backdrop-filter: blur(10px);
+    background: rgba(23, 3, 88, 0.437);
+
+}

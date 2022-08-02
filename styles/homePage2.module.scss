@@ -1,0 +1,50 @@
+
+.homeContainer{
+    height:auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 20% 75%;
+    padding: 2rem 1rem;
+    gap: 3%;
+    border-top: 1px solid blue;
+    background-color:#64299177 ;
+}
+
+.profileContainer{
+    width: 100%;
+    height: 70vh;
+    color: white;
+    background-color: rgba(9, 0, 47, 0.725);
+    border-left: 1px solid blue; 
+    border-bottom: 1px solid blue; 
+    padding: 0.4rem;
+    margin:0.5rem;
+}
+.slidesContainer{
+    margin-bottom: 10rem;
+}
+
+
+@media screen and (max-width:1200px) {
+    .homeContainer{ 
+        height:auto;
+        grid-template-columns:98%;
+    }
+    .profileContainer{
+        height: auto;
+        margin: auto;
+        padding: 1rem;
+        border-bottom: none;
+    }
+@media screen and (max-width:470px) {
+        .homeContainer{ 
+          grid-template-columns:1fr;
+          gap: 1%;
+        }
+        .profileContainer{
+           margin: auto;
+           padding: 0.7rem;
+        }
+} 
+
+}

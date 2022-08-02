@@ -1,0 +1,31 @@
+{
+  "name": "saraportfilio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "css-loader": "^6.7.1",
+    "emailjs-com": "^3.2.0",
+    "file-loader": "^6.2.0",
+    "framer-motion": "^6.5.1",
+    "next": "^12.1.7-canary.46",
+    "next-images": "^1.8.4",
+    "next-videos": "1.4.0",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-icons": "^4.4.0",
+    "sass": "^1.52.2",
+    "style-loader": "^3.3.1",
+    "url-loader": "^4.1.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "8.17.0",
+    "eslint-config-next": "12.1.6"
+  }
+}
