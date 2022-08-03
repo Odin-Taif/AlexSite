@@ -7,7 +7,7 @@ import {
   BsGlobe2,
 } from "react-icons/bs";
 import { MdOutlineMailOutline } from "react-icons/md";
-import style from "./SocialMedia.module.scss";
+import style from "./socialMedia.module.scss";
 const SocialMedia = () => {
   return (
     <div className={style.container}>

@@ -3,7 +3,7 @@ import { MdOutlineMailOutline } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
 import { BiPhoneCall } from "react-icons/bi";
 import emailjs from "emailjs-com";
-import hireStyle from "../styles/hireForm.module.scss";
+import style from "./contactForm.module.scss";
 
 const ContactForm = () => {
   const form = useRef();
@@ -30,15 +30,15 @@ const ContactForm = () => {
   };
   return (
     <section id="contact">
-      <div className={hireStyle.contact__container}>
-        <div className={hireStyle.contact__options}>
+      <div className={style.contact__container}>
+        <div className={style.contact__options}>
           <h1>
             {" "}
             Descripe your business needs and I will take you on a visual trip!
           </h1>
         </div>
-        <div className={hireStyle.contact__form}>
-          <form className={hireStyle.form} ref={form} onSubmit={sendEmail}>
+        <div className={style.contact__form}>
+          <form className={style.form} ref={form} onSubmit={sendEmail}>
             <input
               type="text"
               name="name"
@@ -63,7 +63,7 @@ const ContactForm = () => {
               rows="7"
               required
             ></textarea>
-            <button type="submit" className={hireStyle.btn}>
+            <button type="submit" className={style.btn}>
               Send
             </button>
           </form>

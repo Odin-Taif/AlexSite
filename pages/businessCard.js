@@ -1,7 +1,7 @@
 import Head from "next/head";
 import BussinessCard from "../components/bussinessCard/bussinessCard";
 import ContactForm from "../components/contactForm/contactForm";
-import style from "../components/bussinessCard/bussinessCard.module.scss";
+import style from "../components/bussinessCard/businessCard.module.scss";
 
 const BusinessCard = () => {
   return (
