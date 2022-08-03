@@ -1,0 +1,28 @@
+.container {
+  height: auto;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(to bottom, #015a5d, #000000);
+  width: 100%;
+  max-width: 500px;
+  padding: 2rem 1rem;
+  margin: 2rem 0.5rem;
+}
+.container img {
+  display: block;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: none;
+}
+@media screen and (max-width: 470px) {
+  .container {
+    display: grid;
+    grid-template-columns: 100%;
+    height: auto;
+    gap: 0%;
+  }
+  .container img {
+    margin: 1rem;
+  }
+}

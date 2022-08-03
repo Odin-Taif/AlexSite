@@ -4,7 +4,6 @@ import Image from 'next/image';
 import images from './images';
 import style from './carousel.module.scss';
 function Carousel() {
-    console.log(images)
     const [width, setWidth] = useState(0)
     const carousel = useRef()
     useEffect(() => {
@@ -12,7 +11,7 @@ function Carousel() {
     }, [])
 
     return (
-        <div>
+        <div className={style.container}>
             <motion.div ref={carousel} className={style.carouselContainer} whileTap={{ cursor: "grabbing" }}>
                 <motion.div drag="x" dragConstraints={{ right: 0, left: - width }} className={style.carouselWrapper}>
                     {images.map((image, index) => {

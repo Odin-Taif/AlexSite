@@ -1,0 +1,61 @@
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 1rem;
+  position: relative;
+  z-index: 1;
+}
+.infoBg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+.videoContainer {
+  margin: auto;
+}
+.infoBg video {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-left: 1px solid rgb(255, 255, 255);
+}
+
+.InfoSecContent {
+  border-top: 2px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(1, 148, 135, 0.441);
+  max-width: 800px;
+  width: 100%;
+  padding: 3rem 1rem;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 2%;
+  img {
+    margin: auto;
+    height: 200px;
+    width: 200px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 1rem;
+    height: auto;
+  }
+}
+.InfoSecContent h1 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
