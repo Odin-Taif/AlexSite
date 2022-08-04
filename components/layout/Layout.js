@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import Nav from "../navbar/Nav";
 import Sidebar from "../sidebar/sidebar";
-import Footer from "../footer/footer.js";
-
+import Footer from "../footer/footer";
 import layoutStyle from "./layout.module.scss";
 
 const Layout = ({ children }) => {
