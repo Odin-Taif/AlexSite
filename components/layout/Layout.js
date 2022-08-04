@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Nav from "../navbar/Nav";
 import Sidebar from "../sidebar/sidebar";
-import Footer from "../footer/footer";
+import Footer from "../footer/footer.js";
 
 import layoutStyle from "./layout.module.scss";
 
