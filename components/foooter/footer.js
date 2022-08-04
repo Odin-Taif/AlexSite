@@ -1,6 +1,6 @@
 import footerStyle from "./footer.module.scss";
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <footer className={footerStyle.footer}>
       <span>Artinote © {new Date().getUTCFullYear()} All right reserved.</span>
@@ -8,5 +8,3 @@ const Footer = () => {
     </footer>
   );
 };
-
-export default Footer;
