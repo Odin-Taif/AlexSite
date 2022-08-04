@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Nav from "../navbar/Nav";
 import Sidebar from "../sidebar/sidebar";
-import Footer from "../footer/Footer";
+import Footer from "../footer/footer";
 
 import layoutStyle from "./layout.module.scss";
 
@@ -15,15 +15,6 @@ const Layout = ({ children }) => {
   const showSocialNav = () => {
     setShowSocial(!showSocial);
   };
-
-  // const closeSideBar = () => {
-  //   if (window.scrollY > 0 || isOpen === true) {
-  //     setIsOpen(false);
-  //   }
-  // };
-  // useEffect(() => {
-  //   window.addEventListener("scroll", closeSideBar);
-  // }, []);
 
   return (
     <>
