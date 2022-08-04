@@ -1,10 +1,15 @@
+import ContactForm from "../components/contactForm/contactForm";
+import BussinessCard from "../components/bussinessCard/bussinessCard";
 
-const Work = () => {
-    return (
-      <div>
-          <h3>This is about</h3>
-      </div>
-    )
-  }
-  
-  export default Work;
+import style from "../pagesStyle/aboutPage.module.scss";
+
+const About = () => {
+  return (
+    <div className={style.aboutPage}>
+      <BussinessCard />
+      <ContactForm />
+    </div>
+  );
+};
+
+export default About;

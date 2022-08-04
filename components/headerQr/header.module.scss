@@ -36,7 +36,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(1, 148, 135, 0.441);
+  background-color: #01948770;
   max-width: 800px;
   width: 100%;
   padding: 3rem 1rem;
@@ -48,6 +48,11 @@
     margin: auto;
     height: 200px;
     width: 200px;
+    &:hover {
+      cursor: pointer;
+      transition: all 500ms ease-in-out;
+      transform: scale(1.1);
+    }
   }
   @media screen and (max-width: 768px) {
     font-size: 1rem;

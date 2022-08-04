@@ -30,14 +30,8 @@ const ContactForm = () => {
   };
   return (
     <section id="contact">
-      <div className={style.contact__container}>
-        <div className={style.contact__options}>
-          <h1>
-            {" "}
-            Descripe your business needs and I will take you on a visual trip!
-          </h1>
-        </div>
-        <div className={style.contact__form}>
+      <div className={style.contactContainer}>
+        <div className={style.contactForm}>
           <form className={style.form} ref={form} onSubmit={sendEmail}>
             <input
               type="text"
@@ -63,7 +57,7 @@ const ContactForm = () => {
               rows="7"
               required
             ></textarea>
-            <button type="submit" className={style.btn}>
+            <button type="submit" className={style.formBtn}>
               Send
             </button>
           </form>

@@ -10,7 +10,7 @@ const Nav = ({ toggle, isOpen }) => {
           <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/">About </Link>
+          <Link href="/about">About </Link>
         </li>
       </ul>
       <div onClick={toggle} className={navStyle.mobileIcon}>

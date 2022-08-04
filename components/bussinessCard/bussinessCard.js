@@ -1,27 +1,28 @@
 import Image from "next/image";
 import Link from "next/link";
 import SocialMedia from "../socialmedia/socialmedia";
+import style from "./bussinessCard.module.scss";
 
 const BussinessCard = () => {
   return (
-    <section className="container">
-      <article className="person">
+    <div className={style.container}>
+      <div className={style.person}>
         <Link href="/">
-          <span>
-            <Image
-              width="90px"
-              height="90px"
-              src="/Assests/alexAssets/alex-tattos=1.webp"
-            />
-          </span>
+          <Image
+            width="90px"
+            height="90px"
+            layout="fixed"
+            draggable={false}
+            src="/Assests/alexAssets/alex-tattos=1.webp"
+            className={style.bussinessCardImage}
+          />
         </Link>
-        <div>
+        <div className={style.profileName}>
           <h2>Artinote</h2>
-          <p>Artist</p>
         </div>
-      </article>
-      <SocialMedia></SocialMedia>
-    </section>
+      </div>
+      <SocialMedia />
+    </div>
   );
 };
 

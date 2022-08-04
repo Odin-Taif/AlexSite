@@ -49,4 +49,10 @@
   .container {
     max-width: 480px;
   }
+  .imageContainer {
+    &:hover {
+      transition: all 400ms ease-in-out;
+      transform: scale(1);
+    }
+  }
 }
