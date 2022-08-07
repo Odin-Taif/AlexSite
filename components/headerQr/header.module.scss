@@ -1,5 +1,6 @@
 .headerContainer {
-  height: auto;
+  height: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,17 +14,16 @@
   bottom: 0;
   left: 0;
   right: 0;
-  width: 100%;
-  height: 100%;
-  margin: auto;
 }
 .videoContainer {
+  height: 100%;
+  width: 100%;
   margin: auto;
 }
 .infoBg video {
-  margin: auto;
   width: 100%;
   height: 100%;
+  margin: auto;
   -o-object-fit: cover;
   object-fit: cover;
   border-left: 1px solid rgb(255, 255, 255);
