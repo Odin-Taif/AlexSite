@@ -6,15 +6,13 @@ const SocialMedia = () => {
   return (
     <div className={style.container}>
       <a
-        href="mailto:"
+        href="https://www.instagram.com/artinote/?hl=en"
         target="_blank"
         rel="noopener"
         className={style.socialMediaLink}
       >
-        <span>
-          <MdOutlineMailOutline />
-        </span>
-        <span> Email</span>
+        <BsInstagram />
+        <span>Instagram</span>
       </a>
       <a
         href="/"
@@ -26,13 +24,15 @@ const SocialMedia = () => {
         <span>Facebook</span>
       </a>
       <a
-        href="https://www.instagram.com/artinote/?hl=en"
+        href="mailto:"
         target="_blank"
         rel="noopener"
         className={style.socialMediaLink}
       >
-        <BsInstagram />
-        <span>Instagram</span>
+        <span>
+          <MdOutlineMailOutline />
+        </span>
+        <span> Email</span>
       </a>
     </div>
   );
