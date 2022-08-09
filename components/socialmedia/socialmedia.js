@@ -26,7 +26,7 @@ const SocialMedia = () => {
         <span>Facebook</span>
       </a>
       <a
-        href="instagram.com/artinote/"
+        href="https://www.instagram.com/artinote/?hl=en"
         target="_blank"
         rel="noopener"
         className={style.socialMediaLink}
