@@ -13,7 +13,7 @@ export default function HomePage1() {
         <HeaderQr />
       </div>
       <Carousel />
-      <Carousel />
+      {/* <Carousel /> */}
     </>
   );
 }
